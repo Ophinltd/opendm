@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenDM - Email with value</title>
+    <meta name="description" content="OpenDM makes it easy for people overwhelmed with too many emails to set a price on their contact information to receive an email.">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            color: #fff;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 800px;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 2em;
+            font-weight: 300;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+
+        a {
+            display: inline-block;
+            padding: 1em 2em;
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 0.3em;
+            border: 2px solid #fff;
+            transition: all 0.3s ease-in-out;
+            font-weight: 700;
+            box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+        }
+
+        @keyframes gradient {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to OpenDM</h1>
+        <p>Email with value</p>
+        <a href="mailto:hello+ophin.co.uk?subject=Be%20First%20-%20OpenDM" target="_blank">Be First</a>
+    </div>
+</body>
+</html>
